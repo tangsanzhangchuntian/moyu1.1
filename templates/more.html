@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% from 'boxmacro.html' import label_box4 %}
+{% block more %}
+    <li class="nav-item">
+        <a class="nav-link active layout_text my_font" aria-current="page" href="{{ url_for('tool') }}">其他宝藏</a>
+    </li>
+{% endblock %}
+{% block box1 %}
+    <div class="text_font"></div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box4(href="",name="",img="") }}
+    </div>
+
+{% endblock %}

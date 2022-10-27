@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% from 'boxmacro.html' import label_box3 %}
+{% block study %}
+    <li class="nav-item">
+        <a class="nav-link active layout_text my_font" aria-current="page" href="{{ url_for('study') }}">大学急救</a>
+    </li>
+{% endblock %}
+{% block box1 %}
+    <div class="text_font">猴博士</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box3(href="www.aliyundrive.com/s/jPMZZbDu5UQ",name="2h高数上",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/uP3Ny41nsVw",name="3h高数下",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/eGPfxp76hzf",name="2h线代",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/SDP2mMPLBt1",name="4h概率论",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/dAywXgSHqeQ",name="20h精数上",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/b7VW2nC38Jq",name="30h精数下",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/899ZkCx6xim",name="大学物理",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/fLqzBqVv6ZN",name="4hC语言",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/3tnK3wAw21Y",name="4h电路",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/usEDKZRVXpG",name="4h数电",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/UNgodm3XzNz",name="材料力学",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/sosJJWaUEdC",name="理论力学",img="hbs.png") }}
+        {{ label_box3(href="www.aliyundrive.com/s/NrNbojpPgyz",name="电子技术",img="hbs.png") }}
+
+    </div>
+{% endblock %}
+{% block box2 %}
+    <div class="text_font">蜂考</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box3(href="www.aliyundrive.com/s/azTqLyFBngZ",name="3h高数上",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/X1T3fgs3ZVc",name="4h高数下",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/4Yi6U7WBAc1",name="2h线代",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/RfH5KH3hLid",name="4h概率论",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/tq3NMMq9NEL",name="机械制图",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/YLshGNnwoZd",name="大物力学",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/BvY1fEX7msk",name="大物光学",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/4vAxrf9kiX9",name="电磁学",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/xsU15bAihgL",name="热力学",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/5x8qnmY42ip",name="材料力学",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/7W7NEfnGYxH",name="复变函数",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/kWSKZP94WWa",name="电路",img="fk.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/iyjvMxvFmVZ",name="电子技术",img="fk.svg") }}
+
+    </div>
+{% endblock %}
+
+{% block box3 %}
+    <div class="text_font">考研专区</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box3(href="www.aliyundrive.com/s/4C5Gf18qUxv",name="考研数学",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/m5Ccsc9sToa",name="22张宇",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/gKqfM7sU5dm",name="22武忠祥",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/ir3ReD7BzfD",name="22李永乐",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/Q5vWwmt6zwx",name="22汤家凤",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/FXGZc5A7pDy",name="22李林",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/ExzRZyaZL1h",name="考研英语",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/V2qX6ozL21c",name="22唐迟",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/Dbjt3TgRAoY",name="22刘晓燕",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/MoK4E4hDAij",name="22新东方",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/2WGjDjqVBoz",name="22朱伟",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/hrip4W25Drw",name="22杨亮",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/rFBN7JRaRrq",name="考研政治",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/bY2EM6srfxM",name="22腿姐",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/NJaUiXCJGTP",name="22徐涛",img="ky.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/zGzEm4bfNET",name="22肖秀荣",img="ky.svg") }}
+
+    </div>
+{% endblock %}
+{% block box4 %}
+    <div class="text_font">2022年四六级</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box3(href="www.aliyundrive.com/s/fpW52kZ1ZKc",name="四级考虫",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/gVDDn7Nk1qw",name="四级有道",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/BjPHU77gf2e",name="四级爱启航",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/pBrUq5GJwJK",name="四级商城志",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/Gc4V2mhxz2J",name="四级东方",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/yhChEwAPopo",name="四级晓燕",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/oSTyRZzzRBw",name="四级思成",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/6rTBp6FhUqp",name="六级考虫",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/mpYnMx5q6tm",name="六级文都",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/hKZU2kWnoHM",name="六级有道",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/2PayAQi9dF5",name="六级爱启航",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/9cqTdszxWXh",name="六级商志",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/oxQa5gtx3cf",name="六级东方",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/ZzLNqL65NZC",name="六级思成",img="sj.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/Dmv4oYoNt3y",name="六级晓燕",img="sj.svg") }}
+    </div>
+{% endblock %}
+{% block box5 %}
+    <div class="text_font">教师资格证</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box3(href="www.bilibili.com/video/BV1Ga4y1i77D/?spm_id_from=333.337.search-card.all.click&vd_source=aca4ca50283497b36752544a07987546",name="教资科一",img="jz.svg") }}
+        {{ label_box3(href="www.bilibili.com/video/BV1sk4y1q7pM/?spm_id_from=333.337.search-card.all.click&vd_source=aca4ca50283497b36752544a07987546",name="教资科二",img="jz.svg") }}
+        {{ label_box3(href="www.bilibili.com/video/BV1Hh411R7qz/?spm_id_from=333.337.search-card.all.click&vd_source=aca4ca50283497b36752544a07987546",name="教资科三",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/VFn7opsuNSy",name="小学教资",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/PeTurGLzsm2",name="中学教资",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/qpj55SsJY5z",name="面试资源",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/BSLCMzGdHqd",name="新中考分析",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/hkWreifY9J1",name="教师招聘",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/SuT92uNgTmo",name="招聘知识点",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/wKwofcJBn3U",name="体育教资",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/chsnnN7bsX6",name="教资笔记",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/bKeJND2uNH3",name="教资真题1",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/T221QjMqvAw",name="教资真题2",img="jz.svg") }}
+        {{ label_box3(href="www.aliyundrive.com/s/xuDt9zQxGFe",name="思维导图",img="jz.svg") }}
+    </div>
+{% endblock %}
+

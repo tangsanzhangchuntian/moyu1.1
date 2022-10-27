@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% from 'boxmacro.html' import label_box2 %}
+{% block tool %}
+    <li class="nav-item">
+        <a class="nav-link active layout_text my_font" aria-current="page" href="{{ url_for('tool') }}">实用工具</a>
+    </li>
+{% endblock %}
+{% block box1 %}
+    <div class="text_font">实用插件</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/adguard-广告拦截器/pdffkfellgipmhklpdmokmckkkfcopbh?hl=zh-CN",name="广告拦截",img="gglj.png") }}
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/万能复制/kfllhckggghmhbbdjloohmfkobgobnna?hl=zh-CN",name="万能复制",img="wlfz.png") }}
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/global-speed-视频速度控制/mjhlabbcmjflkpjknnicihkfnmbdfced?hl=zh-CN",name="视频倍数",img="spbs.png") }}
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/fatkun图片批量下载/hafamgdljbpcmgiakdigodgdpkchhglj?hl=zh-CN",name="图片批量下载",img="tpxz.png") }}
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/屏幕录像机/fglhaljbbnlmoipoaamaflffhipgplbj?hl=zh-CN",name="屏幕录像",img="pmlx.png") }}
+
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/万能翻译/bffcaodkiboalanoenlacbhlagclfnef?hl=zh-CN",name="万能翻译",img="wnfy.png") }}
+        {{ label_box2(href="microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN",name="油猴(强推)",img="yh.png") }}
+        {{ label_box2(href="www.tampermonkey.net/scripts.php",name="油猴搜索",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/432382-超星学习通网课助手-多接口-装这一个就够了",name="学习通",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/398601-welearn网课助手",name="WeLearn",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/436994-智慧树-知到网课小助手-2022-5-31-修复检测-答题暂时失效-等待修复-可以设置挂机时长-到时间自动提醒-自动播放下一个视频-题库永久免费-感谢-enncy防检测代码",name="智慧树",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/433560-安全微伴",name="安全微伴",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/393386-批改网工具箱-允许复制粘贴拖拽-去广告-美化-etc",name="批改网",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/437564-uenglish自用-版权归原作者所有",name="U校园",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/428960-csdn-知乎-哔哩哔哩-简书免登录去除弹窗广告",name="免登录",img="yhss.ico") }}
+        {{ label_box2(href="greasyfork.org/zh-CN/scripts/429245-杀佛观音-全网vip视频破解免费看-全网最全非vip视频去广告-极简版",name="去广告",img="yhss.ico") }}
+    </div>
+{% endblock %}
+
+{% block box2 %}
+    <div class="text_font">Adobe全家桶</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box2(href="www.aliyundrive.com/s/nC6kyVatgvC",name="2022PS",img="ps.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/YX9PcWqHdBq",name="2022Pr",img="pr.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/KnBEK2feBjE",name="2022Ai",img="Ai.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/e3tfw3SDU9M",name="2022Id",img="Idn.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/8CV4DJcbwD2",name="2022Ae",img="AE1.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/LyQpvuJmxWS",name="2022Lr",img="lightroom-cc.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/74j22GbocmU",name="2022Au",img="au.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/pzzT22osz8N",name="2022XD",img="xd.svg") }}
+        {{ label_box2(href="www.aliyundrive.com/s/1DDy5FyQYF1",name="2022ME",img="Me.svg") }}
+        {{ label_box2(href="otp.landian.vip/zh-cn/",name="officeTool",img="off.ico") }}
+
+
+    </div>
+{% endblock %}
+
+
+
+{% block box3 %}
+    <div class="text_font">PPT制作</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box2(href="www.1ppt.com",name="第一PPT",img="dyppt.ico") }}
+        {{ label_box2(href="www.51pptmoban.com",name="51PPT",img="51ppt.ico") }}
+        {{ label_box2(href="www.ypppt.com",name="优品PPT",img="ypppt.ico") }}
+        {{ label_box2(href="www.pptbz.com",name="PPT宝藏",img="pptbz.ico") }}
+        {{ label_box2(href="www.51ppt.com.cn",name="无忧PPT",img="wy.ico") }}
+        {{ label_box2(href="www.woodo.cn",name="吾道",img="wd.ico") }}
+        {{ label_box2(href="www.pptfans.cn",name="PPT设计",img="pptsj.ico") }}
+        {{ label_box2(href="www.rapidbbs.cn",name="瑞普PPT",img="rpppt.ico") }}
+        {{ label_box2(href="www.pptkj.net",name="PPT课件",img="pptkj.ico") }}
+        {{ label_box2(href="www.pooban.com",name="扑奔",img="pb.ico") }}
+        {{ label_box2(href="www.lfppt.com",name="免费PPT",img="mfppt.ico") }}
+        {{ label_box2(href="www.hippter.com",name="PPT导航",img="pptdh.ico") }}
+        {{ label_box2(href="www.dingdangsheji.com",name="叮当设计",img="ddsj.png") }}
+        {{ label_box2(href="www.v5ppt.com",name="PPT模板",img="pptmb.ico") }}
+        {{ label_box2(href="www.ppthui.com",name="PPT汇",img="ppth.ico") }}
+        {{ label_box2(href="www.pptsupermarket.com",name="PPT市场",img="pptsc.ico") }}
+        {{ label_box2(href="www.yomoer.cn",name="柚墨",img="ym.ico") }}
+        {{ label_box2(href="www.pptfan.com",name="PPTFun",img="pptf.ico") }}
+
+
+    </div>
+{% endblock %}
+{% block box4 %}
+    <div class="text_font">图片设计</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box2(href="huaban.com",name="花瓣",img="hb.ico") }}
+        {{ label_box2(href="www.iconfont.cn",name="iconfont",img="ift.svg") }}
+        {{ label_box2(href="www.zcool.com.cn",name="站酷",img="kz.png") }}
+        {{ label_box2(href="www.58pic.com",name="千图网",img="qtw.ico") }}
+        {{ label_box2(href="stocksnap.io",name="Stock",img="stk.ico") }}
+        {{ label_box2(href="www.tupian114.com",name="图片114",img="114.ico") }}
+        {{ label_box2(href="www.51yuansu.com",name="觅元素",img="mys.ico") }}
+        {{ label_box2(href="www.51mo.com",name="魔力设",img="mls.png") }}
+        {{ label_box2(href="www.pexels.com/zh-cn/",name="Pexels",img="pe.ico") }}
+        {{ label_box2(href="sc.chinaz.com",name="素材下载",img="scxz.ico") }}
+        {{ label_box2(href="www.picdiet.com",name="图片压缩",img="tpys.ico") }}
+        {{ label_box2(href="www.iloveimg.com",name="图片工具",img="tpgj.png") }}
+        {{ label_box2(href="yijiangaitu.com",name="一键改图",img="tp1.svg") }}
+        {{ label_box2(href="www.uupoop.com",name="在线PS",img="zxps.ico") }}
+        {{ label_box2(href="www.superbed.cn",name="聚合图床",img="jhtc.ico") }}
+        {{ label_box2(href="www.remove.bg",name="在线抠图",img="zxkt.ico") }}
+        {{ label_box2(href="www.gaituya.com",name="改图鸭",img="gty.ico") }}
+        {{ label_box2(href="bigjpg.com",name="图片放大",img="tpfd.ico") }}
+        {{ label_box2(href="www.mygraphpaper.com",name="图片方格纸",img="tp.svg") }}
+        {{ label_box2(href="wallhaven.cc",name="精美壁纸",img="bz1.ico") }}
+        {{ label_box2(href="www.netbian.com",name="彼岸桌面",img="bazm.ico") }}
+        {{ label_box2(href="www.wallpapermaiden.com",name="wallpape",img="bz2.png") }}
+        {{ label_box2(href="wallhere.com",name="著名壁纸",img="zmbz.png") }}
+        {{ label_box2(href="anime-pictures.net",name="全龄壁纸",img="qlbz.png") }}
+
+
+
+    </div>
+{% endblock %}
+{% block box5 %}
+    <div class="text_font">其他工具</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box2(href="pdf.wps.cn",name="格式转换",img="gszh.ico") }}
+        {{ label_box2(href="zh.pickfrom.net",name="在线剪辑",img="zxjj.ico") }}
+        {{ label_box2(href="www.processon.com",name="思维导图",img="swdt.ico") }}
+        {{ label_box2(href="tools.miku.ac",name="工具集合",img="gjjh.webp") }}
+        {{ label_box2(href="fast.com",name="网速测试",img="wscs.png") }}
+        {{ label_box2(href="screen.liflag.cn",name="网速测试",img="pmcs.png") }}
+        {{ label_box2(href="topic.expreview.com/Power/",name="电源天梯图",img="cn.ico") }}
+        {{ label_box2(href="topic.expreview.com/CPU/",name="CPU天梯图",img="cn.ico") }}
+        {{ label_box2(href="topic.expreview.com/CPU/",name="GPU天梯图",img="cn.ico") }}
+        {{ label_box2(href="www.jiumodiary.com",name="鸠摩文献",img="jmwx.png") }}
+        {{ label_box2(href="www.koovin.com",name="库问文献",img="kw.ico") }}
+        {{ label_box2(href="459.org",name="文献部落",img="wxbl.ico") }}
+        {{ label_box2(href="www.ncpssd.org",name="国家文献",img="gjwx.ico") }}
+        {{ label_box2(href="www.zjlib.cn",name="浙江图书馆",img="zjtsg.ico") }}
+        {{ label_box2(href="www.researchgate.net",name="ReserchGate",img="RG.ico") }}
+
+
+
+    </div>
+{% endblock %}

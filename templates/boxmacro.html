@@ -1,0 +1,21 @@
+{# 盒子的复用 #}
+{% macro label_box1(href,img,name) %}
+    <a class="col" href="http://{{ href }}" target="_blank">
+        <div class="p-4 border bg-light box"><img src="style/tubiao/yule/{{ img }}" height="32px" width="32px"><label>{{ name }}</label></div>
+    </a>
+{% endmacro %}
+{% macro label_box2(href,img,name) %}
+    <a class="col" href="http://{{ href }}" target="_blank">
+        <div class="p-4 border bg-light box"><img src="style/tubiao/gongju/{{ img }}" height="32px" width="32px"><label>{{ name }}</label></div>
+    </a>
+{% endmacro %}
+{% macro label_box3(href,img,name) %}
+    <a class="col" href="http://{{ href }}" target="_blank">
+        <div class="p-4 border bg-light box"><img src="style/tubiao/xuexi/{{ img }}" height="32px" width="32px"><label>{{ name }}</label></div>
+    </a>
+{% endmacro %}
+{% macro label_box4(href,img,name) %}
+    <a class="col" href="http://{{ href }}" target="_blank">
+        <div class="p-4 border bg-light box"><img src="style/tubiao/qita/{{ img }}" height="32px" width="32px"><label>{{ name }}</label></div>
+    </a>
+{% endmacro %}
