@@ -8,7 +8,7 @@
     <!-- Bootstrap 的 CSS 文件 -->
     <link href="/style/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/style/style.css" rel="stylesheet">
-
+    <link rel="icon" href="/style/favicon.ico">
     <title>三藏的摸鱼圣地</title>
 </head>
 <body>
@@ -58,7 +58,7 @@
         </div>
         <div class="main_content" id="screen">
             <!--                警告区域-->
-            <div class="alert alert-danger alert-dismissible fade show my_font margint50" role="alert">
+            <div class="alert alert-danger alert-dismissible fade show my_font margint40" role="alert">
                 <strong>注意！！！</strong> {% block attention %}{% endblock %}
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
@@ -81,7 +81,7 @@
                 <div class="foot_box1">
                     <p>本网站的一切资源都源于网络免费分享,仅供小范围的免费参考和学习兴趣交流</p>
                 </div >
-                <div class = "foot_box1"><p>如果有侵权之处请第一时间联系我们,第一时间删除 Email-</p></div>
+                <div class = "foot_box1"><p>如果有侵权之处请第一时间联系我们,第一时间删除 Email-2889067003@qq.com</p></div>
             </div>
 
         </div>
@@ -89,7 +89,9 @@
         <!--        //主要内容区域-->
         <!--            右侧区域-->
         <div class="col right">
-            <div class="box-right hidden"></div>
+{#            <div class="box-right hidden"><h5>板块介绍</h5>#}
+{#            <p>本板块集结了目前本人知道的所有免费看电影听音乐和看小说等资源,可能细心的朋友可能发现了有些盒子并没有免费呐emmmm....对确实有些box是正版软件,大家在用正版的同时不要忘了正版付出的努力,大家有条件的支持正版一波</p>#}
+{#            </div>#}
         </div>
     </div>
 </div>
@@ -109,7 +111,7 @@
     function setblushAnimate() {
         if (reduceMotionQuery.matches) {
             screen = document.getElementById("screen");
-            screen.className = 'col-10'
+            screen.className = 'col-12'
         }
         else {
             screen = document.getElementById("screen");

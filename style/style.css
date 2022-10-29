@@ -13,8 +13,8 @@
     margin-right: 15px;
 }
 
-.margint50 {
-    margin-top: 50px;
+.margint40 {
+    margin-top: 40px;
 }
 
 a {
@@ -81,6 +81,8 @@ a {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 12px;
     margin-top: 200px;
+    display: flex;
+    justify-content: center;
 
 }
 

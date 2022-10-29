@@ -2,13 +2,85 @@
 {% from 'boxmacro.html' import label_box4 %}
 {% block more %}
     <li class="nav-item">
-        <a class="nav-link active layout_text my_font" aria-current="page" href="{{ url_for('tool') }}">其他宝藏</a>
+        <a class="nav-link active layout_text my_font" aria-current="page" href="{{ url_for('more') }}">其他宝藏</a>
     </li>
 {% endblock %}
+{% block attention %}
+    使用本网站一定要下载实用工具中的Ad广告拦截插件可以防止90%的诈骗,家里没有几百万就不要随便点击广告,广告水深,你把握不住的.
+{% endblock %}
 {% block box1 %}
-    <div class="text_font"></div>
+    <div class="text_font">文字转语音和变声器</div>
     <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
-        {{ label_box4(href="",name="",img="") }}
-    </div>
+        {{ label_box4(href="toolb.cn/textspeech",name="文字转语音",img="wr.ico") }}
+        {{ label_box4(href="toolight.cn/media/reading",name="语音合成",img="yyhc.png") }}
+        {{ label_box4(href="cloud.tencent.com/product/tts",name="腾讯云语音",img="txy.ico") }}
+        {{ label_box4(href="ai.aliyun.com/nls/tts",name="阿里语音",img="aly.ico") }}
+        {{ label_box4(href="www.ffkuaidu.com",name="讯飞快读",img="xfkd.ico") }}
+        {{ label_box4(href="yuanqiyinpin.github.io",name="元气变声",img="yq.ico") }}
+        {{ label_box4(href="www.mnsyj.com",name="米娜声优",img="mnsy.ico") }}
+        {{ label_box4(href="zenvideo.qq.com",name="智影",img="zy.ico") }}
+        {{ label_box4(href="www.kx861.com",name="熊猫音频",img="xmyp.ico") }}
 
+
+    </div>
+{% endblock %}
+{% block box2 %}
+    <div class="text_font">阿里网盘资源搜索</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box4(href="yiso.fun",name="易搜",img="ys.png") }}
+        {{ label_box4(href="jujuso.com",name="优聚搜",img="yjs.ico") }}
+        {{ label_box4(href="www.niceso.fun",name="奈斯搜索",img="ns.ico") }}
+        {{ label_box4(href="www.upyunso.com",name="UP搜索",img="upss.png") }}
+        {{ label_box4(href="www.alipansou.com",name="猫狸搜索",img="lmss.ico") }}
+        {{ label_box4(href="meow.tg",name="TG喵",img="tg.webp") }}
+        {{ label_box4(href="tg.qianfan.app",name="千猫搜索",img="qmss.ico") }}
+        {{ label_box4(href="www.sssoou.com",name="telegram",img="trm.ico") }}
+        {{ label_box4(href="zhaoziyuan.la",name="找资源",img="zzy.ico") }}
+        {{ label_box4(href="dianyingyuan.org",name="云盘电影",img="ypdy.ico") }}
+        {{ label_box4(href="u.gitcafe.net",name="小纸条",img="xzt.png") }}
+        {{ label_box4(href="ziyuan.iters.cn",name="资源中转",img="zyzz.ico") }}
+        {{ label_box4(href="www.panpanr.com",name="淘资源社区",img="tzy.ico") }}
+    </div>
+{% endblock %}
+
+
+{% block box3 %}
+    <div class="text_font">百度和夸克盘搜索</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box4(href="www.xuebapan.com",name="学霸盘",img="xbp.png") }}
+        {{ label_box4(href="www.pansoso.com",name="盘搜搜",img="pps.ico") }}
+        {{ label_box4(href="www.xuesousou.com",name="学搜搜",img="xss.ico") }}
+        {{ label_box4(href="www.h2ero.com",name="咕咕云",img="ggy.ico") }}
+        {{ label_box4(href="panother.com",name="盘他",img="pt.ico") }}
+        {{ label_box4(href="www.repanso.com",name="热盘搜",img="rs.ico") }}
+        {{ label_box4(href="feiyu100.cn",name="飞鱼盘",img="fyp.ico") }}
+        {{ label_box4(href="www.soupan8.com",name="搜盘8",img="sp.ico") }}
+        {{ label_box4(href="www.vpansou.com",name="盘搜",img="vps.ico") }}
+        {{ label_box4(href="pan.funletu.com",name="盘趣",img="pq.ico") }}
+        {{ label_box4(href="www.cuppaso.fun",name="咔帕搜索",img="kpss.png") }}
+        {{ label_box4(href="www.nmme.cc",name="橘子盘搜",img="jzps.ico") }}
+
+    </div>
+{% endblock %}
+{% block box4 %}
+    <div class="text_font">乱七八糟</div>
+    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+        {{ label_box4(href="www.uugai.com",name="免费Logo",img="mf.ico") }}
+        {{ label_box4(href="creator.nightcafe.studio",name="AI绘画",img="aihh.ico") }}
+        {{ label_box4(href="www.aitiyan.top",name="AI绘图",img="aiht.jpg") }}
+        {{ label_box4(href="www.grammarly.com",name="论文润色",img="lwrs.png") }}
+        {{ label_box4(href="api.edwiv.com",name="狗屁不通",img="gpbt.png") }}
+        {{ label_box4(href="weibodang.cn",name="WeiBoDang",img="wbd.ico") }}
+        {{ label_box4(href="web.baimiaoapp.com",name="图片转文字",img="tpz.ico") }}
+        {{ label_box4(href="cli.im",name="草料二维码",img="cl.ico") }}
+        {{ label_box4(href="tool.lu",name="在线工具箱",img="zxgjx.ico") }}
+        {{ label_box4(href="convertio.co/zh/",name="文件转换",img="wjzh.ico") }}
+        {{ label_box4(href="youquhome.com",name="有趣网址",img="yqwz.ico") }}
+        {{ label_box4(href="cowtransfer.com",name="传文件",img="cwj.png") }}
+        {{ label_box4(href="toonme.com",name="照片转漫画",img="zpz.png") }}
+        {{ label_box4(href="www.doutub.com",name="找表情包",img="bqb.ico") }}
+        {{ label_box4(href="www.fhdq.net",name="找emoji",img="zbq.ico") }}
+        {{ label_box4(href="zhaotaici.cn",name="找台词",img="ztc.ico") }}
+        {{ label_box4(href="jianlixiazai.cn",name="找简历",img="zjl.png") }}
+    </div>
 {% endblock %}
